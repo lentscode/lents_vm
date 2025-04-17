@@ -8,5 +8,9 @@ include_directories(
 
 add_executable(
   lents_vm 
+  ${CMAKE_CURRENT_SOURCE_DIR}/src/commands.c
   ${CMAKE_CURRENT_SOURCE_DIR}/src/main.c
+  ${CMAKE_CURRENT_SOURCE_DIR}/src/memory.c
+  ${CMAKE_CURRENT_SOURCE_DIR}/src/system.c
+  ${CMAKE_CURRENT_SOURCE_DIR}/src/utils.c
 )
